@@ -1081,7 +1081,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<false/>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
