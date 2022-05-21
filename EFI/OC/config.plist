@@ -1056,7 +1056,7 @@
 			<key>AllowNvramReset</key>
 			<true/>
 			<key>AllowSetDefault</key>
-			<true/>
+			<false/>
 			<key>AllowToggleSip</key>
 			<false/>
 			<key>ApECID</key>
@@ -1131,8 +1131,8 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
-				<key>Item 0</key>
-				<string>prev-lang:kbd</string>
+				<key>prev-lang:kbd</key>
+				<data>ZW4tVVM6MA==</data>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
@@ -1141,8 +1141,6 @@
 				<string>-v keepsyms=1 agdpmod=pikera  -v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera npci=0x2000 agdpmod=pikera  npci=0x2000 agdpmod=pikera alcid=1 npci=0x2000 agdpmod=pikera alcid=1 -v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera npci=0x2000 agdpmod=pikera alcid=1 -v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera npci=0x2000 agdpmod=pikera alcid=1 -v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
-				<key>prev-lang:kbd</key>
-				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
