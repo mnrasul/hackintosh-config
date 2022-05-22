@@ -131,6 +131,16 @@
 			<true/>
 			<key>SyncTableIds</key>
 			<false/>
+			<key>SetupVirtualMap</key>
+			<false/>
+			<key>EnableWriteUnprotector</key>
+			<false/>
+			<key>RebuildAppleMemoryMap</key>
+			<true/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
+			<key>ProvideCurrentCpuInfo</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -989,7 +999,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<true/>
+			<false/>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -1138,7 +1148,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 agdpmod=pikera  -v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera npci=0x2000 agdpmod=pikera  npci=0x2000 agdpmod=pikera alcid=1 npci=0x2000 agdpmod=pikera alcid=1 -v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera npci=0x2000 agdpmod=pikera alcid=1 -v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera npci=0x2000 agdpmod=pikera alcid=1 -v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera</string>
+				<string>-v keepsyms=1 agdpmod=pikera  -v keepsyms=1 debug=0x100 alcid=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>run-efi-updater</key>
