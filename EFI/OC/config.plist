@@ -131,6 +131,16 @@
 			<true/>
 			<key>SyncTableIds</key>
 			<false/>
+			<key>SetupVirtualMap</key>
+			<false/>
+			<key>EnableWriteUnprotector</key>
+			<false/>
+			<key>RebuildAppleMemoryMap</key>
+			<true/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
+			<key>ProvideCurrentCpuInfo</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>Booter</key>
