@@ -5,13 +5,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0 Copyright © 2018-2021 AMD OS X. All rights reserved.</string>
+	<string>v1.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.shaneee.USBPorts</string>
+	<string>com.corpnewt.USBMap</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>USBPorts</string>
+	<string>USBMap</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -28,24 +28,14 @@
 			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
-			<key>IONameMatch</key>
-			<string>XHC0</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x149c1022</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GP13@8,1/IOPP/XHC0@0,3/XHC0@60000000</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>4700</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>4700</integer>
+				<key>kUSBMuxEnabled</key>
+				<true/>
 				<key>port-count</key>
 				<data>
 				CAAAAA==
@@ -55,7 +45,7 @@
 					<key>PRT1</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 2.0 Rear Port 2</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -68,7 +58,7 @@
 					<key>PRT2</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 2.0 Rear Port 1</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -81,22 +71,22 @@
 					<key>PRT3</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 2.0 Rear Port 4</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
-						<string>PRT4</string>
+						<string>PRT3</string>
 						<key>port</key>
 						<data>
-						BAAAAA==
+						AwAAAA==
 						</data>
 					</dict>
 					<key>PRT4</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 2.0 Rear Port 3</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>PRT4</string>
 						<key>port</key>
@@ -107,9 +97,9 @@
 					<key>PRT5</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 Rear Port 2</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>PRT5</string>
 						<key>port</key>
@@ -117,10 +107,23 @@
 						BQAAAA==
 						</data>
 					</dict>
+					<key>PRT6</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB3 Rear Port 1</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>PRT6</string>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
 					<key>PRT7</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 Rear Port 4</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -133,7 +136,7 @@
 					<key>PRT8</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 Rear Port 3</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -148,40 +151,30 @@
 			<key>model</key>
 			<string>MacPro7,1</string>
 		</dict>
-		<key>MacPro7,1-XHC1-1022_149c</key>
+		<key>MacPro7,1-XHC0 2</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
-			<key>IONameMatch</key>
-			<string>XHC1</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x149c1022</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/BXBR@1,2/IOPP/BYUP@0/IOPP/BYD8@8/IOPP/XHC0@0,3/XHC0@61000000</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>4700</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>4700</integer>
+				<key>kUSBMuxEnabled</key>
+				<true/>
 				<key>port-count</key>
 				<data>
-				BQAAAA==
+				CgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
 					<key>PRT1</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 2.0 Front Port 2</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -194,7 +187,162 @@
 					<key>PRT2</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 2.0 Front Port 1</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>PRT2</string>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
+					<key>PRT3</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB-C 2.0 Front Port </string>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>name</key>
+						<string>PRT3</string>
+						<key>port</key>
+						<data>
+						AwAAAA==
+						</data>
+					</dict>
+					<key>PRT4</key>
+					<dict>
+						<key>Comment</key>
+						<string>AURA LED Controller</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>PRT4</string>
+						<key>port</key>
+						<data>
+						BAAAAA==
+						</data>
+					</dict>
+					<key>PRT5</key>
+					<dict>
+						<key>Comment</key>
+						<string>Internal 3 USB2.0 Port 2</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>PRT5</string>
+						<key>port</key>
+						<data>
+						BQAAAA==
+						</data>
+					</dict>
+					<key>PRT6</key>
+					<dict>
+						<key>Comment</key>
+						<string>Internal 4 USB2.0 Port 2 </string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>PRT6</string>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
+					<key>PRT7</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB3 Front Port 2</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>PRT7</string>
+						<key>port</key>
+						<data>
+						BwAAAA==
+						</data>
+					</dict>
+					<key>PRT8</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB3 Front Port 1</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>PRT8</string>
+						<key>port</key>
+						<data>
+						CAAAAA==
+						</data>
+					</dict>
+					<key>PRT9</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB-C Front Port 2 way</string>
+						<key>UsbConnector</key>
+						<integer>10</integer>
+						<key>name</key>
+						<string>PRT9</string>
+						<key>port</key>
+						<data>
+						CQAAAA==
+						</data>
+					</dict>
+					<key>PT10</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB-C Front Port 2 way</string>
+						<key>UsbConnector</key>
+						<integer>10</integer>
+						<key>name</key>
+						<string>PT10</string>
+						<key>port</key>
+						<data>
+						CgAAAA==
+						</data>
+					</dict>
+				</dict>
+			</dict>
+			<key>model</key>
+			<string>MacPro7,1</string>
+		</dict>
+		<key>MacPro7,1-XHC1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/BXBR@1,2/IOPP/BYUP@0/IOPP/BYD8@8/IOPP/XHC1@0,1/XHC1@20000000</string>
+			<key>IOProviderClass</key>
+			<string>AppleUSBXHCIPCI</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>kUSBMuxEnabled</key>
+				<true/>
+				<key>port-count</key>
+				<data>
+				CgAAAA==
+				</data>
+				<key>ports</key>
+				<dict>
+					<key>PRT1</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB3 2.0 Rear Port 7</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>PRT1</string>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
+					<key>PRT2</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB-C 2.0 Rear Port </string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>name</key>
@@ -207,7 +355,7 @@
 					<key>PRT3</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 2.0 Rear Port 5</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -220,7 +368,7 @@
 					<key>PRT4</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB3 2.0 Rear Port 6</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -233,7 +381,7 @@
 					<key>PRT5</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>Internal USB2.0 1,2 Port 1</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
@@ -241,6 +389,71 @@
 						<key>port</key>
 						<data>
 						BQAAAA==
+						</data>
+					</dict>
+					<key>PRT6</key>
+					<dict>
+						<key>Comment</key>
+						<string>Internal Bluetooth</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>PRT6</string>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
+					<key>PRT7</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB3 Rear Port 7</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>PRT7</string>
+						<key>port</key>
+						<data>
+						BwAAAA==
+						</data>
+					</dict>
+					<key>PRT8</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB-C Rear Port </string>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>name</key>
+						<string>PRT8</string>
+						<key>port</key>
+						<data>
+						CAAAAA==
+						</data>
+					</dict>
+					<key>PRT9</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB3 Rear Port 6</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>PRT9</string>
+						<key>port</key>
+						<data>
+						CQAAAA==
+						</data>
+					</dict>
+					<key>PT10</key>
+					<dict>
+						<key>Comment</key>
+						<string>USB3 Rear Port 5</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>PT10</string>
+						<key>port</key>
+						<data>
+						CgAAAA==
 						</data>
 					</dict>
 				</dict>
