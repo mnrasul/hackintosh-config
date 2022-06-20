@@ -228,6 +228,24 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
+				<string>IOBluetoothFamily.kext</string>
+				<key>Comment</key>
+				<string>IOBluetoothFamily.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOBluetoothFamily</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
 				<string>Lilu.kext</string>
@@ -372,6 +390,114 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
+				<string>IOBluetoothFamily.kext/Contents/PlugIns/CSRHIDTransitionDriver.kext</string>
+				<key>Comment</key>
+				<string>CSRHIDTransitionDriver.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CSRHIDTransitionDriver</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IOBluetoothFamily.kext/Contents/PlugIns/IOBluetoothA2DPAudioDriver.kext</string>
+				<key>Comment</key>
+				<string>IOBluetoothA2DPAudioDriver.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOBluetoothA2DPAudioDriver</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IOBluetoothFamily.kext/Contents/PlugIns/IOBluetoothHostControllerUSBTransport.kext</string>
+				<key>Comment</key>
+				<string>IOBluetoothHostControllerUSBTransport.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOBluetoothHostControllerUSBTransport</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IOBluetoothFamily.kext/Contents/PlugIns/IOBluetoothSCOAudioDriver.kext</string>
+				<key>Comment</key>
+				<string>IOBluetoothSCOAudioDriver.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOBluetoothSCOAudioDriver</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IOBluetoothFamily.kext/Contents/PlugIns/IOBluetoothSerialManager.kext</string>
+				<key>Comment</key>
+				<string>IOBluetoothSerialManager.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOBluetoothSerialManager</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IOBluetoothFamily.kext/Contents/PlugIns/IOBluetoothUSBDFU.kext</string>
+				<key>Comment</key>
+				<string>IOBluetoothUSBDFU.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOBluetoothUSBDFU</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
 				<key>Comment</key>
 				<string>AirportBrcmFixup.kext</string>
@@ -451,6 +577,42 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCAMDProcessor</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IOBluetoothFamily.kext/Contents/PlugIns/BroadcomBluetoothHostControllerUSBTransport.kext</string>
+				<key>Comment</key>
+				<string>BroadcomBluetoothHostControllerUSBTransport.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BroadcomBluetoothHostControllerUSBTransport</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IOBluetoothFamily.kext/Contents/PlugIns/CSRBluetoothHostControllerUSBTransport.kext</string>
+				<key>Comment</key>
+				<string>CSRBluetoothHostControllerUSBTransport.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CSRBluetoothHostControllerUSBTransport</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
