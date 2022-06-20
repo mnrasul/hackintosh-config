@@ -174,13 +174,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>BrcmBluetoothInjector.kext</string>
+				<string>BrcmFirmwareData.kext</string>
 				<key>Comment</key>
-				<string>BrcmBluetoothInjector.kext</string>
+				<string>BrcmFirmwareData.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/BrcmFirmwareData</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
@@ -192,13 +192,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>BrcmFirmwareData.kext</string>
+				<string>BrcmNonPatchRAM2.kext</string>
 				<key>Comment</key>
-				<string>BrcmFirmwareData.kext</string>
+				<string>BrcmNonPatchRAM2.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrcmFirmwareData</string>
+				<string></string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
